@@ -1,0 +1,77 @@
+/* Configuración general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Estilo de las secciones */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo de los artículos de experiencia laboral y educación */
+.school, .job, .diploma {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-left: 3px solid #007BFF;
+}
+/* Estilo de la imagen de perfil */
+.photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px; /* Ajusta el tamaño según prefieras */
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #007BFF;
+}
