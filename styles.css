@@ -1,54 +1,52 @@
-/* Configuración general */
+/* Estilos para la foto */
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover; /* Asegura que la imagen se ajuste bien */
+}
+
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #04031a;
+    line-height: 1.6;
 }
 
-/* Estilo del contenedor principal */
-.container {
-    width: 80%;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 30px;
-}
-
-/* Estilo del encabezado */
 header {
+    background-color: #e3e7eb;
+    color: #1f1d1d;
+    padding: 20px 0;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 2em;
 }
 
 header p {
     margin: 5px 0;
-    color: #666;
+    font-size: 1.1em;
 }
 
-/* Estilo de las secciones */
 section {
-    margin-bottom: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
-    border-bottom: 2px solid #f4f4f4;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-/* Estilo de los artículos de experiencia laboral y educación */
-.school, .job, .diploma {
-    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -56,22 +54,65 @@ ul {
     padding: 0;
 }
 
-ul li {
-    background: #f4f4f4;
-    margin-bottom: 5px;
-    padding: 10px;
-    border-left: 3px solid #007BFF;
-}
-/* Estilo de la imagen de perfil */
-.photo {
-    text-align: center;
+li {
     margin-bottom: 20px;
 }
 
-.photo img {
-    border-radius: 50%;
-    width: 150px; /* Ajusta el tamaño según prefieras */
-    height: 150px;
-    object-fit: cover;
-    border: 3px solid #007BFF;
+h3 {
+    margin: 0 0 5px 0;
+    color: #2980b9;
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #2c3e50;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+
+/* Estilos para el pie de página */
+#pie {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#pie a {
+    color: #2980b9;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#pie a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
 }
